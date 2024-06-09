@@ -1,0 +1,35 @@
+.button {
+  background-color: #000;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  padding: 15px 20px;
+  font-weight: 700;
+
+  &:hover {
+    background: #0009;
+    transition: background 0.2s ease-in-out;
+  }
+}
+
+.section {
+  position: relative;
+}
+
+.options-enter {
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+}
+
+.options-enter-active {
+  opacity: 1;
+}
+
+.options-exit {
+  opacity: 1;
+  transition: opacity 0.3s ease-out;
+}
+
+.options-exit-active {
+  opacity: 0;
+}

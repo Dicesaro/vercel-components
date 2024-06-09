@@ -1,0 +1,13 @@
+.toast {
+  background-color: #000;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  padding: 15px 20px;
+  font-weight: 700;
+
+  &:hover {
+    background: #0009;
+    transition: background 0.2s ease-in-out;
+  }
+}

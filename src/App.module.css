@@ -1,0 +1,13 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  gap: 20px;
+}
+
+.components {
+  display: flex;
+  gap: 20px;
+}
