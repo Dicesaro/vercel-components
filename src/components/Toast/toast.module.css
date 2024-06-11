@@ -5,9 +5,19 @@
   color: #fff;
   padding: 15px 20px;
   font-weight: 700;
+  cursor: pointer;
 
   &:hover {
     background: #0009;
     transition: background 0.2s ease-in-out;
   }
+}
+
+.toastContainer {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
